@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/bhavana-netlify/netlify-blob#readme",
   "dependencies": {
-    "@netlify/blobs": "^7.0.1"
+    "@netlify/blobs": "^7.0.1",
+    "@netlify/edge-functions": "^2.3.1"
   }
 }
