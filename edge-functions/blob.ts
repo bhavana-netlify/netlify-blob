@@ -1,5 +1,5 @@
 import { getStore } from "@netlify/blobs";
-import type { Context } from "@netlify/edge-functions";
+import type { Context, Config } from "@netlify/edge-functions";
 
 
 export default async (req:Request, context: Context) => {
@@ -9,3 +9,8 @@ export default async (req:Request, context: Context) => {
 
     return new Response ("Values set in the Homes store")
 }
+
+
+export const config: Config = {
+    path: "/*",
+  };
