@@ -1,0 +1,23 @@
+{
+  "name": "netlify-blob",
+  "version": "1.0.0",
+  "description": "Trying out Netlify Storage Blob",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhavana-netlify/netlify-blob.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhavana-netlify/netlify-blob/issues"
+  },
+  "homepage": "https://github.com/bhavana-netlify/netlify-blob#readme",
+  "dependencies": {
+    "@netlify/blobs": "^7.0.1"
+  }
+}
